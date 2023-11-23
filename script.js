@@ -1,14 +1,14 @@
 function soma(number) {
-  let somatorio = 0;
+  let conjunto = 0;
 
   for (let i = 1; i < number; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
-      somatorio += i;
+      conjunto += i;
     }
   }
 
-  return somatorio;
-}
+  return conjunto;
+} 
 
-const resultado = soma(20);
+const resultado = soma(10);
 console.log(resultado);
